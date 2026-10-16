@@ -1,0 +1,12 @@
+1. Sửa Entity
+
+2. Generate
+   pnpm migration:generate src/database/migrations/AddSomething
+
+3. Mở file migration kiểm tra SQL
+
+4. Run
+   pnpm migration:run
+
+5. Start app
+   pnpm start:dev

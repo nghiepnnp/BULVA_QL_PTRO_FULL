@@ -1,0 +1,29 @@
+{
+  "name": "BULVA_QL_PTRO_FE",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "pnpm@12.11.2",
+  "scripts": {
+    "dev:web": "pnpm --filter @bulva_dev/web dev",
+    "dev:mobile": "pnpm --filter @bulva_dev/mobile start",
+    "build:web": "pnpm --filter @bulva_dev/web build",
+    "typecheck": "pnpm -r typecheck",
+    "check:expo": "pnpm --filter @bulva_dev/mobile exec expo install --check",
+    "check:source": "node check-project.cjs",
+    "test:mobile-settings": "node --test tests/mobile-settings.test.cjs",
+    "test:mobile-i18n": "node --test tests/mobile-i18n.test.cjs",
+    "test:mobile-auth": "node --test tests/mobile-social-auth.test.cjs",
+    "ota:link": "pnpm --filter @bulva_dev/mobile ota:link",
+    "ota:check": "pnpm --filter @bulva_dev/mobile ota:check",
+    "build:preview": "pnpm --filter @bulva_dev/mobile build:preview",
+    "build:production": "pnpm --filter @bulva_dev/mobile build:production",
+    "ota:preview": "pnpm --filter @bulva_dev/mobile ota:preview",
+    "ota:production": "pnpm --filter @bulva_dev/mobile ota:production",
+    "test:mobile-ota": "node --test tests/mobile-ota.test.cjs"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.10",
+    "typescript": "~5.9.2",
+    "eas-cli": "25.0.0"
+  }
+}

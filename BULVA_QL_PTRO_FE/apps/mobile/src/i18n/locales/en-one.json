@@ -1,0 +1,11 @@
+{
+  "SO_LUONG_DON_VI": "{{p0}} unit",
+  "DON_VI": "unit",
+  "BAT_DONG_SAN_SO_LUONG": "property",
+  "DON_VI_TAM_NGUNG_KHAI_THAC": "unit temporarily unavailable",
+  "SO_LUONG_NGUOI": "{{p0}} person",
+  "NGUOI": "person",
+  "XAC_NHAN_NHAN_PHONG_P0_NGUOI": "Confirm move-in ({{p0}} person)",
+  "P0_CHO_TRONG": "/ {{p0}} available space",
+  "PHONG_CHI_CON_P0_CHO_BO_CHON_NGUOI_KHAC_HOAC_DOI_PHONG": "This unit has only {{p0}} space left. Deselect someone or choose another unit."
+}

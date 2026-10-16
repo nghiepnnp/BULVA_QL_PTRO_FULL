@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-brand-action: 24 105 86;
+    --color-canvas: 245 247 251;
+    --color-surface: 255 255 255;
+    --color-ink: 29 46 66;
+    --color-muted: 116 132 154;
+    --color-line: 230 235 241;
+    --color-brand: 24 105 86;
+    --color-brand-soft: 228 243 237;
+    --color-hero-start: 21 77 71;
+    --color-hero-end: 29 128 103;
+    --color-hero-progress: 176 239 213;
+    --color-thumbnail-ink: 44 139 113;
+    --color-thumbnail-start: 183 217 204;
+    --color-thumbnail-end: 226 242 232;
+    --color-unit-ink: 91 117 146;
+    --color-unit-soft: 240 245 251;
+    --color-resident-ink: 82 97 170;
+    --color-resident-soft: 230 234 250;
+    --color-vacant-ink: 171 112 37;
+    --color-vacant-soft: 255 242 225;
+    --color-warning: 202 123 33;
+    --color-warning-soft: 255 243 221;
+    --color-danger: 207 71 82;
+    --color-danger-soft: 253 236 238;
+    --color-disabled: 154 165 179;
+    --color-neutral-soft: 237 241 245;
+    --color-neutral-ink: 84 101 123;
+    --color-avatar-soft: 219 235 229;
+    --color-avatar-ink: 23 99 78;
+    --color-metric-line: 234 240 245;
+  }
+}

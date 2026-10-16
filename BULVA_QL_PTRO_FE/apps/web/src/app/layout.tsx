@@ -1,0 +1,16 @@
+import type { Metadata } from "next";
+import "./globals.css";
+import { Providers } from "@/components/providers";
+
+export const metadata: Metadata = {
+  title: "BULVA · Web + Mobile",
+  description: "Next.js and Expo monorepo shared-code bulva dev",
+};
+
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+  return (
+    <html lang="vi">
+      <body><Providers>{children}</Providers></body>
+    </html>
+  );
+}

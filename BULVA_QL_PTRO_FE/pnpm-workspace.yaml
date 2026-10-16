@@ -1,0 +1,22 @@
+packages:
+  - "apps/*"
+  - "packages/*"
+minimumReleaseAgeExclude:
+  - babel-preset-expo@57.0.16
+  - "@expo/cli@57.0.31"
+  - "@expo/router-server@57.0.13"
+  - "@expo/ui@57.0.25"
+  - expo-router@57.0.28
+  - expo@57.0.30
+  - "@expo/eas-build-job@25.0.0"
+  - "@expo/eas-json@25.0.0"
+  - "@expo/logger@25.0.0"
+  - "@expo/steps@25.0.0"
+  - "@expo/turtle-spawn@25.0.0"
+  - eas-cli@25.0.0
+nodeLinker: hoisted
+
+# EAS CLI: optional DTrace instrumentation and protobuf version notice are not needed.
+allowBuilds:
+  dtrace-provider: false
+  protobufjs: false
